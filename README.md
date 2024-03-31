@@ -163,7 +163,10 @@ If X1 > X2, take (X2, Y2) as the starting point and (X1, Y1) as the end point, t
 
 main(){
 	initwindow(500,500);
-        // declearing varables 
+
+
+        // declearing varables
+
          int x1=100,y2=50;
          int x2=400,y2=300;
          float dx,dy,xInc, yInc;
