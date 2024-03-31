@@ -14,10 +14,10 @@ Line drawing algorithms are used to draw a line in discrete graphical media. The
 
 ## The Line Equation
 <br>
-![image](https://github.com/maqsoodhussain/computer_graphics_programs/assets/83625735/9765e70c-21dd-45af-b5b5-23b23f403649)
+[image](https://github.com/maqsoodhussain/computer_graphics_programs/assets/83625735/9765e70c-21dd-45af-b5b5-23b23f403649)
 
-<BR>
-![image](https://github.com/maqsoodhussain/computer_graphics_programs/assets/83625735/503c8323-05e1-4423-9469-c42f0eb7a20f) < BR>
+<br>
+[image](https://github.com/maqsoodhussain/computer_graphics_programs/assets/83625735/503c8323-05e1-4423-9469-c42f0eb7a20f) <br>
 
 
 ### Finding the next pixel to draw a line
@@ -29,7 +29,7 @@ There are three special scenarios when we draw lines.
 
 The horizontal line has the same Y coordinate value. In this scenario, we only need to consider X coordinate value changes. We first draw pixel P and increment only the X coordinate value by 1 to get the next pixel.
 <br>
-![image](https://github.com/maqsoodhussain/computer_graphics_programs/assets/83625735/97244a64-8449-46af-9a0c-8de472330c9c)
+[image](https://github.com/maqsoodhussain/computer_graphics_programs/assets/83625735/97244a64-8449-46af-9a0c-8de472330c9c)
 <br>
 
 Case 2: Draw a Vertical Line: m is undefined
@@ -37,12 +37,12 @@ Case 2: Draw a Vertical Line: m is undefined
 Vertical lines have the same X coordinates values and different Y coordinate values. Similar to the horizontal line draw, we first draw the initial pixel (P), and this time we increment Y coordinate values by 1 to get the next pixel until we reach endpoint Q.
 
 <br>
-![image](https://github.com/maqsoodhussain/computer_graphics_programs/assets/83625735/31d44cf8-0abc-45fb-9881-be22649d8523)
+[image](https://github.com/maqsoodhussain/computer_graphics_programs/assets/83625735/31d44cf8-0abc-45fb-9881-be22649d8523)
 
 <br>
 Case 3: Draw a Diagonal Line: m = 1
 <br>
-![image](https://github.com/maqsoodhussain/computer_graphics_programs/assets/83625735/17ce5982-16fe-4779-bb84-cdc11192907c)
+[image](https://github.com/maqsoodhussain/computer_graphics_programs/assets/83625735/17ce5982-16fe-4779-bb84-cdc11192907c)
 <br>
 The final special scenario is to draw a diagonal line, where the slope equals 1. To get the next pixel in diagonal line we need to increment both X and Y coordinate values by 1.
 
@@ -66,11 +66,11 @@ X = X1, Y = Y1
 As we know, the slope of the line can be determined using,
 
 <br>
-![image](https://github.com/maqsoodhussain/computer_graphics_programs/assets/83625735/0f5cd998-5cbe-42ed-b673-a68a16061c95)
+[image](https://github.com/maqsoodhussain/computer_graphics_programs/assets/83625735/0f5cd998-5cbe-42ed-b673-a68a16061c95)
 <br>
 In this case, we always keep the difference in X coordinate values to 1.
 <br>
-![image](https://github.com/maqsoodhussain/computer_graphics_programs/assets/83625735/a68ed3c0-7dee-4a6a-8575-fd6f633970f1)
+[image](https://github.com/maqsoodhussain/computer_graphics_programs/assets/83625735/a68ed3c0-7dee-4a6a-8575-fd6f633970f1)
 
 <br>
 
@@ -89,11 +89,11 @@ But in this case, instead of X, we increment the Y value by one.
 
 <br>
 
-![image](https://github.com/maqsoodhussain/computer_graphics_programs/assets/83625735/a37906f1-1211-48b2-9514-4d794a2bc443)
+[image](https://github.com/maqsoodhussain/computer_graphics_programs/assets/83625735/a37906f1-1211-48b2-9514-4d794a2bc443)
 <br>
 So, when we assign this to the slope equation, we can get the current X value.
 <br>
-![image](https://github.com/maqsoodhussain/computer_graphics_programs/assets/83625735/365c96f3-8e1e-4c8a-b99c-8aaf7fca77de)
+[image](https://github.com/maqsoodhussain/computer_graphics_programs/assets/83625735/365c96f3-8e1e-4c8a-b99c-8aaf7fca77de)
 <br>
 ![image](https://github.com/maqsoodhussain/computer_graphics_programs/assets/83625735/fae46908-5ec0-458b-b66e-8ea8001fd4a4)
 <br>
