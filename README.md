@@ -1,7 +1,7 @@
 # computer_graphics_programs
 graphic programs in cpp 
 
-"""
+<!--
 In computer graphics, we need to represent continuous graphics objects using discrete pixels. This process is known as scan conversion. Every graphics system must transform the primitives like lines, circles, and ellipses into a collection of pixels.
 
 Line drawing algorithms are used to draw a line in discrete graphical media. There are three line drawing algorithms in computer graphics.
@@ -152,8 +152,8 @@ If X1 > X2, take (X2, Y2) as the starting point and (X1, Y1) as the end point, t
 """
 
 
-
-'''
+-->
+```
 //DDA (Digital Differential Analyzer)
 
 #include<iostream>
@@ -181,4 +181,4 @@ main(){
 	}
 	getch();
 }
-'''
+```
