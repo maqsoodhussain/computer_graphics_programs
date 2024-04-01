@@ -8,7 +8,7 @@ main(){
     
 	
     // declearing varables 
-    int x1=100,y2=50;
+    int x1=100,y1=50;
 	  int x2=400,y2=300;
     float dx,dy,xInc, yInc;
     int steps;
