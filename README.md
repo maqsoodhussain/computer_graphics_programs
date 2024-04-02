@@ -154,6 +154,50 @@ If X1 > X2, take (X2, Y2) as the starting point and (X1, Y1) as the end point, t
 
 -->
 # Line Drawing Using Line Equation y = mx + c
+## mathatical example
+```
+For x =2
+Y = 0.5 x 2+2=3
+So, the point is (2, 3).
+
+For x=3
+Y = 0.5 x 3+2 = 3.5
+Rounding to the nearest integer, y = 4.
+So, the point is (3, 4).
+
+For x=4
+Y = 0.5 x 4+2=4
+So, the point is (4, 4).
+
+For x=5
+y — 0.5 x 5+2 4.5
+Rounding to the nearest integer, y = 5.
+So, the point is (5, 5).
+
+For x=6
+Y = 0.5 x 6+2=5
+So, the point is (6, 5).
+
+For x= 7:
+y = 0.5 x 7+2 5.5
+Rounding to the nearest integer, y = 6.
+So, the point is (7, 6).
+
+For y=8;
+Y = 0.5 x 8+2—6
+So, the point is (8, 6).
+
+Therefore, the points lying between (2, 3) and (8, 6) are:
+x    y 
+(3, 4)
+ (4, 4)
+ (5, 5)
+ (6, 5)
+ (7, 6)
+
+```
+
+## C++ PRORRAM
 ```
 
 #include<iostream>
