@@ -156,6 +156,12 @@ If X1 > X2, take (X2, Y2) as the starting point and (X1, Y1) as the end point, t
 # Line Drawing Using Line Equation y = mx + c
 ## mathatical example
 ```
+slop
+m = (y2-y1)/(x2-x1)
+m = (6-3) / (8-2) = 0.5
+m = 0.5
+Let's calculate the points:
+
 For x =2
 Y = 0.5 x 2+2=3
 So, the point is (2, 3).
